@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noticias Champions</title>
+    <meta name="description" content="Entérate de las últimas noticias, resultados y análisis de la UEFA Champions League. Sigue a tus equipos y jugadores favoritos en la competición de clubes más prestigiosa de Europa.">
+    <link rel="icon" href="EscudosNBA/CCS.png" type="image/png">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <header>
+        <div class="encabezado">
+            <span class="hamburger" id="hamburger">&#9776;</span>
+            <h1>CC<span class="TextoSecundario">Sport</span></h1>
+        </div>        
+    </header>
+
+    <nav id="menu" class="menu">
+        <ul>
+            <li><a href="#">Nba</a>
+                <ul class="submenu">
+                    <li><a href="index.html">Titulares</a>
+                    <li><a href="NBA-Equipos.html">Equipos</a></li>
+                    <li><a href="NBA-Calendario.html">Calendario</a></li>
+                    <li><a href="NBA-Resultados.html">Resultado</a></li>
+                    <li><a href="NBA-Estadisticas.html">Estadisticas</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Champions League</a>
+                <ul class="submenu">
+                    <li><a href="champions-league-titulares.html">Titulares</a>
+                    <li><a href="champions-league-equipos.html">Equipos</a></li>
+                    <li><a href="champions-league-calendario.html">Calendario</a></li>                    
+                </ul>
+            </li>
+            <li><a href="#">LaLiga</a>
+                <ul class="submenu">
+                    <li><a href="LaLiga-titulares.html">Titulares</a>
+                    <li><a href="LaLiga-calendario.html">Calendario</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Premier League</a>
+                <ul class="submenu">
+                    <li><a href="PremierLeague-titulares.html">Titulares</a>
+                    <li><a href="PremierLeague-calendario.html">Calendario</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Bundesliga</a>
+                <ul class="submenu">
+                    <li><a href="Bundesliga-titulares.html">Titulares</a>
+                    <li><a href="Bundesliga-calendario.html">Calendario</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Serie A</a>
+                <ul class="submenu">
+                    <li><a href="SerieA-titulares.html">Titulares</a>
+                    <li><a href="serieA-calendario.html">Calendario</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="contenedor-principal">
+            <aside class="sidebar-izquierda">
+                <h3>&#10159; Champions</h3>                
+                <article class="destacado">
+                    <table id="tabla-posiciones-izquierda">
+                        <thead>
+                            <tr>
+                                <th>Pos</th>
+                                <th>Equipo</th>
+                                <th>PJ</th>
+                                <th>PG</th>
+                                <th>PE</th>
+                                <th>PP</th>
+                                <th>PTS</th>
+                                <th>DG</th> <!-- Nueva columna para la diferencia de gol -->
+                            </tr>
+                        </thead>
+                        <tbody>                            
+                            <tr>
+                                <td></td>
+                                <td>Arsenal</td>
+                                <td>1</td>
+                                <td>0</td>
+                                <td>1</td>
+                                <td>0</td>
+                                <td></td>
+                                <td>0</td><!-- diferencia de gol -->
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Aston Villa</td>
+                                <td>1</td>
+                                <td>1</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td></td>
+                                <td>3</td><!-- diferencia de gol -->
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Liverpool</td>
+                                <td>1</td>
+                                <td>1</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td></td>
+                                <td>2</td><!-- diferencia de gol -->
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Manchester City</td>
+                                <td>1</td>
+                                <td>0</td>
+                                <td>1</td>
+                                <td>0</td>
+                                <td></td>
+                                <td>0</td><!-- diferencia de gol -->
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Atlético de Madrid</td>
+                                <td>1</td>
+                                <td>1</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td></td>
+                                <td>1</td><!-- diferencia de gol -->
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Barcelona</td>
+                                <td>1</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>1</td>
+                                <td></td>
+                                <td>-1</td><!-- diferencia de gol -->
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Girona</td>
+                                <td>1</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>1</td>
+                                <td></td>
+                                <td>-1</td><!-- diferencia de gol -->
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Real Madrid</td>
+                                <td>1</td>
+                                <td>1</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td></td>
+                                <td>2</td><!-- diferencia de gol -->
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Bayern</td>
+                                <td>1</td>
+                                <td>1</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td></td>
+                                <td>7</td><!-- diferencia de gol -->
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Dortmund</td>
+                                <td>1</td>
+                                <td>1</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td></td>
+                                <td>3</td><!-- diferencia de gol -->
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Leipzig</td>
+                                <td>1</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>1</td>
+                                <td></td>
+                                <td>-1</td><!-- diferencia de gol -->
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Leverkusen</td>
+                                <td>1</td>
+                                <td>1</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td></td>
+                                <td>4</td><!-- diferencia de gol -->
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Stuttgart</td>
+                                <td>1</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>1</td>
+                                <td></td>
+                                <td>-2</td><!-- diferencia de gol -->
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Atalanta</td>
+                                <td>1</td>
+                                <td>0</td>
+                                <td>1</td>
+                                <td>0</td>
+                                <td></td>
+                                <td>0</td><!-- diferencia de gol -->
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Bolonia</td>
+                                <td>1</td>
+                                <td>0</td>
+                                <td>1</td>
+                                <td>0</td>
+                                <td></td>
+                                <td>0</td><!-- diferencia de gol -->
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Inter</td>
+                                <td>1</td>
+                                <td>0</td>
+                                <td>1</td>
+                                <td>0</td>
+                                <td></td>
+                                <td>0</td><!-- diferencia de gol -->
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Juventus</td>
+                                <td>1</td>
+                                <td>1</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td></td>
+                                <td>2</td><!-- diferencia de gol -->
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Milan</td>
+                                <td>1</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>1</td>
+                                <td></td>
+                                <td>-2</td><!-- diferencia de gol -->
+                            </tr>
+                        </tbody>
+                    </table>                    
+                </article>
+            </aside>
+
+            <section class="titulares">                
+                <article class="titular" id="NuevoFormatoDeLaChampions">
+                    <h2>Nuevo formato de la champions league 2024/25</h2>
+                    <p class="time-reference"> 2/07/2024</p>
+                    <img src="img/Champions.png" alt="Descripción de la imagen">
+                    <p>A partir de la temporada 2024/25, la UEFA Champions League tendrá un nuevo formato.</p>
+                    <p><b>1. Fase de liga: </b>Se elimina la fase de grupos tradicional. En su lugar, habrá una fase de liga con 36 equipos.</p>
+                    <p><b>2. Número de partidos: </b>: Cada equipo jugará ocho partidos en esta fase, enfrentándose a ocho rivales diferentes (cuatro en casa y cuatro fuera)</p>
+                    <p><b>3. Clasificación: </b>Los ocho primeros equipos de esta fase avanzarán directamente a los octavos de final. Los equipos que terminen entre el noveno y el vigésimo cuarto lugar jugarán un Play-Off a ida y vuelta para determinar los otros ocho clasificados.</p>
+                    <p><b>4. Días de competencia: </b>Además de los tradicionales martes y miércoles, se agregarán los jueves como día de competencia</p>
+                    <p>Este nuevo formato busca aumentar la competitividad y ofrecer más partidos emocionantes desde el inicio del torneo.</p>
+                    <p></p>
+                    
+                </article>
+
+                <article class="titular" id="SorteoDeLaFaseLiueraDeLaChampions">
+                    <h2>Sorteo de la fase liguera de la champions</h2>
+                    <p class="time-reference"> 2/07/2024</p>
+                    <img src="img/Ch-Sorteo.jpg" alt="Descripción de la imagen">                   
+                    <p>El sorteo de la fase de liga de la UEFA Champions League 2024/25 se llevó a cabo el jueves 29 de agosto de 2024 en el Grimaldi Forum de Mónaco. Este sorteo determinó los rivales de los 36 equipos participantes en la nueva fase de liga del torneo.</p>
+                    <p>Cada equipo jugará contra ocho rivales diferentes, cuatro partidos en casa y cuatro fuera. Los partidos de esta fase se jugarán en las siguientes fechas:</p>
+                    <p><b>Jornada 1: </b>17/18/19 de septiembre de 2024</p>
+                    <p><b>Jornada 2: </b>1/2 de octubre de 2024</p>
+                    <p><b>Jornada 3: </b>22/23 de octubre de 2024</p>
+                    <p><b>Jornada 4: </b>5/6 de noviembre de 2024</p>
+                    <p><b>Jornada 5: </b>26/27 de noviembre de 2024</p>
+                    <p><b>Jornada 6: </b>10/11 de diciembre de 2024</p>
+                    <p><b>Jornada 7: </b>21/22 de enero de 2025</p>
+                    <p><b>Jornada 8: </b>29 de enero de 2025</p> 
+                </article>
+
+                <article class="titular" id="EquiposDeLaChampions">
+                    <h2>los 36 equipos que participaran en el nuevo formato de la Champions League</h2>
+                    <p class="time-reference"> 2/07/2024</p>
+                    <img src="img/Ch-EquiposParticitamptes.png" alt="Descripción de la imagen">                   
+                    <p>a partir de la temporada 2024/25 <a href="Ch-equipos.html" target="_blank"><i>36 equipos</i></a> participaran en la champions league con un nuevo formato que es la fase de liga, remplazando a la antigua fase de grupos</p>
+                    <p></p>
+                    <p></p>                     
+                </article>
+            </section>
+
+            <aside class="sidebar-derecha">
+                <h3>&#10159; Champions</h3>               
+                <article class="destacado">
+                    <table id="tabla-posiciones-derecha">
+                        <thead>
+                            <tr>
+                                <th>Pos</th>
+                                <th>Equipo</th>
+                                <th>PJ</th>
+                                <th>PG</th>
+                                <th>PE</th>
+                                <th>PP</th>
+                                <th>PTS</th>
+                            </tr>
+                        </thead>
+                        <tbody>                            
+                            <tr>
+                                <td></td>
+                                <td>Stade Brestois</td>
+                                <td>1</td>
+                                <td>1</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td></td>
+                                <td>1</td><!-- diferencia de gol -->
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Lille</td>
+                                <td>1</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>1</td>
+                                <td></td>
+                                <td>-2</td><!-- diferencia de gol -->
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Mónaco</td>
+                                <td>1</td>
+                                <td>1</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td></td>
+                                <td>1</td><!-- diferencia de gol -->
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>PSG</td>
+                                <td>1</td>
+                                <td>1</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td></td>
+                                <td>1</td><!-- diferencia de gol -->
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>RB Salzburg</td>
+                                <td>1</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>1</td>
+                                <td></td>
+                                <td>-3</td><!-- diferencia de gol -->
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Sturm Graz</td>
+                                <td>1</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>1</td>
+                                <td></td>
+                                <td>-1</td><!-- diferencia de gol -->
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Feyenoord</td>
+                                <td>1</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>1</td>
+                                <td></td>
+                                <td>-4</td><!-- diferencia de gol -->
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>PSV</td>
+                                <td>1</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>1</td>
+                                <td></td>
+                                <td>-2</td><!-- diferencia de gol -->
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Benfica</td>
+                                <td>1</td>
+                                <td>1</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td></td>
+                                <td>1</td><!-- diferencia de gol -->
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Sporting</td>
+                                <td>1</td>
+                                <td>1</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td></td>
+                                <td>2</td><!-- diferencia de gol -->
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Club Brujas</td>
+                                <td>1</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>1</td>
+                                <td></td>
+                                <td>-3</td><!-- diferencia de gol -->
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Dinamo Zagreb</td>
+                                <td>1</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>1</td>
+                                <td></td>
+                                <td>-7</td><!-- diferencia de gol -->
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Sparta Praga</td>
+                                <td>1</td>
+                                <td>1</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td></td>
+                                <td>3</td><!-- diferencia de gol -->
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Celtic</td>
+                                <td>1</td>
+                                <td>1</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td></td>
+                                <td>4</td><!-- diferencia de gol -->
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Estrella Roja</td>
+                                <td>1</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>1</td>
+                                <td></td>
+                                <td>-1</td><!-- diferencia de gol -->
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Slovan Bratislava</td>
+                                <td>1</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>1</td>
+                                <td></td>
+                                <td>-4</td><!-- diferencia de gol -->
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Young Boys</td>
+                                <td>1</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>1</td>
+                                <td></td>
+                                <td>-3</td><!-- diferencia de gol -->
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Shakhtar Donetsk</td>
+                                <td>1</td>
+                                <td>0</td>
+                                <td>1</td>
+                                <td>0</td>
+                                <td></td>
+                                <td>0</td><!-- diferencia de gol -->
+                            </tr>
+                        </tbody>
+                    </table>                    
+                </article>
+            </aside>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 CCSports. Todos los derechos reservados.</p>
+        <nav>
+            <ul>
+                <li><a href="#about">Sobre Nosotros</a></li>
+                <li><a href="#privacy">Política de Privacidad</a></li>
+                <li><a href="#terms">Términos y Condiciones</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+        <p>Síguenos en:</p>
+        <a href="https://www.facebook.com/TuPagina" target="_blank">Facebook</a>
+        <a href="https://www.twitter.com/TuPagina" target="_blank">Twitter</a>
+        <a href="https://www.instagram.com/TuPagina" target="_blank">Instagram</a>
+        <p>Contacto: <a href="news.ccsports@gmail.com">news.ccsports@gmail.com</a></p>
+        <p>Teléfono: +591 79435934</p>        
+        <p>Dirección: Arrueta Integracion, Potosí [Bolivia]</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

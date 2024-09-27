@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LaLiga noticias</title>
+    <meta name="description" content="Sigue todas las noticias, resultados y posiciones de la liga de fútbol de España.">
+    <link rel="icon" href="EscudosNBA/CCS.png" type="image/png">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <header>
+        <div class="encabezado">
+            <span class="hamburger" id="hamburger">&#9776;</span>
+            <h1>CC<span class="TextoSecundario">Sport</span></h1>
+        </div>        
+    </header>
+
+    <nav id="menu" class="menu">
+        <ul>
+            <li><a href="#">Nba</a>
+                <ul class="submenu">
+                    <li><a href="index.html">Titulares</a>
+                    <li><a href="NBA-Equipos.html">Equipos</a></li>
+                    <li><a href="NBA-Calendario.html">Calendario</a></li>
+                    <li><a href="NBA-Resultados.html">Resultado</a></li>
+                    <li><a href="NBA-Estadisticas.html">Estadisticas</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Champions League</a>
+                <ul class="submenu">
+                    <li><a href="champions-league-titulares.html">Titulares</a>
+                    <li><a href="champions-league-equipos.html">Equipos</a></li>
+                    <li><a href="champions-league-calendario.html">Calendario</a></li>                    
+                </ul>
+            </li>
+            <li><a href="#">LaLiga</a>
+                <ul class="submenu">
+                    <li><a href="LaLiga-titulares.html">Titulares</a>
+                    <li><a href="LaLiga-calendario.html">Calendario</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Premier League</a>
+                <ul class="submenu">
+                    <li><a href="PremierLeague-titulares.html">Titulares</a>
+                    <li><a href="PremierLeague-calendario.html">Calendario</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Bundesliga</a>
+                <ul class="submenu">
+                    <li><a href="Bundesliga-titulares.html">Titulares</a>
+                    <li><a href="Bundesliga-calendario.html">Calendario</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Serie A</a>
+                <ul class="submenu">
+                    <li><a href="SerieA-titulares.html">Titulares</a>
+                    <li><a href="serieA-calendario.html">Calendario</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="contenedor-principal">
+            <aside class="sidebar-izquierda">
+                <h3>&#10159; LaLiga</h3>                
+                <article class="destacado">
+                    <table id="tabla-posiciones-izquierda">
+                        <thead>
+                            <tr>
+                                <th>Pos</th>
+                                <th>Equipo</th>
+                                <th>PJ</th>
+                                <th>PG</th>
+                                <th>PE</th>
+                                <th>PP</th>
+                                <th>PTS</th>
+                                <th>DG</th> <!-- Nueva columna para la diferencia de gol -->
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td></td>
+                                <td>FC Barcelona</td>
+                                <td>7</td>
+                                <td>7</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td></td>
+                                <td>18</td><!-- diferencia de gol -->
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Real Madrid</td>
+                                <td>7</td>
+                                <td>5</td>
+                                <td>2</td>
+                                <td>0</td>
+                                <td></td>
+                                <td>11</td><!-- diferencia de gol -->
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Atlético</td>
+                                <td>7</td>
+                                <td>4</td>
+                                <td>3</td>
+                                <td>0</td>
+                                <td></td>
+                                <td>8</td><!-- diferencia de gol -->
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Villarreal</td>
+                                <td>7</td>
+                                <td>4</td>
+                                <td>2</td>
+                                <td>1</td>
+                                <td></td>
+                                <td>0</td><!-- diferencia de gol -->
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Girona</td>
+                                <td>7</td>
+                                <td>2</td>
+                                <td>2</td>
+                                <td>3</td>
+                                <td></td>
+                                <td>-2</td><!-- diferencia de gol -->
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Alavés</td>
+                                <td>7</td>
+                                <td>3</td>
+                                <td>1</td>
+                                <td>3</td>
+                                <td></td>
+                                <td>1</td><!-- diferencia de gol -->
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Osasuna</td>
+                                <td>7</td>
+                                <td>3</td>
+                                <td>2</td>
+                                <td>2</td>
+                                <td></td>
+                                <td>-3</td><!-- diferencia de gol -->
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Celta</td>
+                                <td>7</td>
+                                <td>3</td>
+                                <td>0</td>
+                                <td>4</td>
+                                <td></td>
+                                <td>0</td><!-- diferencia de gol -->
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Leganés</td>
+                                <td>7</td>
+                                <td>1</td>
+                                <td>3</td>
+                                <td>3</td>
+                                <td></td>
+                                <td>-4</td><!-- diferencia de gol -->
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Mallorca</td>
+                                <td>7</td>
+                                <td>3</td>
+                                <td>2</td>
+                                <td>2</td>
+                                <td></td>
+                                <td>1</td><!-- diferencia de gol -->
+                            </tr>
+                        </tbody>
+                    </table>                    
+                </article>
+            </aside>
+
+            <section class="titulares">                
+                <article class="titular" id="AjustesEnLosLimitesSalarialesDeLaLiga">
+                    <h2>Ajustes en los Límites Salariales Marcan la Nueva Temporada 2024/2025</h2>
+                    <p class="time-reference"> 12/09/2024</p>
+                    <img src="img/LimiteSalarial.jpg" alt="Limite salarial de LaLiga 2024/2025">
+                    <p>Para la temporada 2024/25, los límites salariales de los clubes en La Liga han sido actualizados. El Real Madrid es el equipo con el mayor límite salarial, pasando los 754 millones de euros, seguido por el FC Barcelona con 426 millones, y el Atlético de Madrid en tercer lugar con algo mas de 310 millones. Estos límites son establecidos por La Liga y están basados en los ingresos de los clubes, a los que se les restan los gastos no deportivos.</p>
+                    <p>El Barcelona, que había enfrentado dificultades económicas, ha logrado aumentar significativamente su límite salarial desde los 204 millones en febrero, aunque aún se encuentra bajo restricciones debido a su situación financiera. Por su parte, el Real Madrid ha mantenido una posición estable y sigue ampliando su límite salarial, consolidándose como el equipo con mayor capacidad de gasto en la liga​.</p>
+                    <p><b>Real Madrid: 754.894.000 €</b><br>El club con mayor capacidad de gasto. Refuerza su posición como uno de los equipos más poderosos no solo de España, sino del mundo. Este límite les permite mantener una plantilla de élite, con fichajes galácticos y sueldos acordes a los mejores jugadores.</p>
+                    <p><b>FC Barcelona: 426.427.000 €</b><br>Aunque sigue en segundo lugar, su diferencia con el Real Madrid es significativa y todavia delicada.</p>
+                    <p><b>Atlético de Madrid: 310.745.000 €</b><br>Mantiene una posición sólida, aunque sigue lejos de los dos gigantes del fútbol español. Este presupuesto les permite seguir siendo competitivos en La Liga y en Europa, aunque sin la capacidad de hacer grandes fichajes con la misma frecuencia que el Madrid o el Barça.</p>
+                    <p><b>Real Betis: 108.990.000 €</b></p>
+                    <p><b>Real Sociedad: 159.259.000 €</b></p>
+                    <p><b>Sevilla FC: 2.499.000 €</b></p>
+                    <p><b>Athletic Club: 100.818.000 €</b></p>
+                    <p><b>Villarreal CF: 135.860.000 €</b></p>
+                    <p><b>Valencia CF: 74.608.000 €</b></p>
+                    <p><b>Girona FC: 94.464.000 €</b></p>
+                    <p><b>RCD Mallorca: 58.841.000 €</b></p>
+                    <p><b>Osasuna: 51.862.000 €</b></p>
+                    <p><b>Deportivo Alavés: 38.628.000 €</b></p>
+                    <p><b>Rayo Vallecano: 45.571.000 €</b></p>
+                    <p><b>Celta de Vigo: 77.570.000 €</b></p>
+                    <p><b>Getafe CF: 39.172.000 €</b></p>
+                    <p><b>UD Las Palmas: 40.320.000 €</b></p>
+                    <p><b>RCD Espanyol: 8.789.000 €</b></p>
+                    <p><b>CD Leganés: 37.138.000 €</b></p>
+                    <p><b>Real Valladolid: 41.836.000 €</b></p>
+                    <p>Los límites salariales reflejan claramente la desigualdad que existe en La Liga. El Real Madrid y el Barcelona dominan con diferencias abismales respecto a otros clubes, lo que les da una ventaja clara a la hora de competir tanto a nivel nacional como internacional. Equipos como el Atlético de Madrid, Real Sociedad y Villarreal también tienen un margen considerable, pero es preocupante ver a clubes históricos como el Sevilla y el Espanyol con límites salariales tan bajos. Esto no solo afectará su rendimiento en La Liga, sino que también podría repercutir en sus futuras participaciones en competiciones europeas o su capacidad para atraer talento.</p>
+                    <p>El caso del Sevilla es especialmente alarmante. A pesar de su éxito reciente en competiciones europeas, su límite salarial actual es muy bajo, lo que podría comprometer su capacidad para mantenerse competitivo. La situación del Barcelona, aunque ha mejorado, sigue siendo inestable, ya que aún no han alcanzado la regla 1:1 del fair play financiero.</p>   
+                    <p>En resumen, los límites salariales en La Liga continúan mostrando una marcada diferencia entre los grandes equipos y los clubes medianos y pequeños. Esto refuerza la idea de que el éxito a largo plazo en el fútbol español está estrechamente ligado a la capacidad económica de cada club.</p>   
+                </article>
+            </section>
+
+            <aside class="sidebar-derecha">
+                <h3>&#10159; LaLiga</h3>               
+                <article class="destacado">
+                    <table id="tabla-posiciones-derecha">
+                        <thead>
+                            <tr>
+                                <th>Pos</th>
+                                <th>Equipo</th>
+                                <th>PJ</th>
+                                <th>PG</th>
+                                <th>PE</th>
+                                <th>PP</th>
+                                <th>PTS</th>
+                                <th>DG</th> <!-- Nueva columna para la diferencia de gol -->
+                            </tr>
+                        </thead>
+                        <tbody>                            
+                            <tr>
+                                <td></td>
+                                <td>Rayo Vallecano</td>
+                                <td>7</td>
+                                <td>2</td>
+                                <td>3</td>
+                                <td>2</td>
+                                <td></td>
+                                <td>1</td><!-- diferencia de gol -->
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Real Sociedad</td>
+                                <td>7</td>
+                                <td>1</td>
+                                <td>2</td>
+                                <td>4</td>
+                                <td></td>
+                                <td>-4</td><!-- diferencia de gol -->
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Athletic Club</td>
+                                <td>7</td>
+                                <td>4</td>
+                                <td>1</td>
+                                <td>2</td>
+                                <td></td>
+                                <td>4</td><!-- diferencia de gol -->
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Espanyol</td>
+                                <td>6</td>
+                                <td>2</td>
+                                <td>1</td>
+                                <td>3</td>
+                                <td></td>
+                                <td>-4</td><!-- diferencia de gol -->
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Valladolid</td>
+                                <td>7</td>
+                                <td>1</td>
+                                <td>2</td>
+                                <td>4</td>
+                                <td></td>
+                                <td>-12</td><!-- diferencia de gol -->
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Getafe</td>
+                                <td>7</td>
+                                <td>0</td>
+                                <td>4</td>
+                                <td>3</td>
+                                <td></td>
+                                <td>-3</td><!-- diferencia de gol -->
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Betis</td>
+                                <td>7</td>
+                                <td>2</td>
+                                <td>3</td>
+                                <td>2</td>
+                                <td></td>
+                                <td>0</td><!-- diferencia de gol -->
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Las Palmas</td>
+                                <td>7</td>
+                                <td>0</td>
+                                <td>3</td>
+                                <td>4</td>
+                                <td></td>
+                                <td>-5</td><!-- diferencia de gol -->
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Sevilla</td>
+                                <td>7</td>
+                                <td>2</td>
+                                <td>2</td>
+                                <td>3</td>
+                                <td></td>
+                                <td>-2</td><!-- diferencia de gol -->
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Valencia</td>
+                                <td>7</td>
+                                <td>1</td>
+                                <td>2</td>
+                                <td>4</td>
+                                <td></td>
+                                <td>-5</td><!-- diferencia de gol -->
+                            </tr>
+                        </tbody>
+                    </table>                     
+                </article>
+            </aside>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 CCSports. Todos los derechos reservados.</p>
+        <nav>
+            <ul>
+                <li><a href="#about">Sobre Nosotros</a></li>
+                <li><a href="#privacy">Política de Privacidad</a></li>
+                <li><a href="#terms">Términos y Condiciones</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+        <p>Síguenos en:</p>
+        <a href="https://www.facebook.com/TuPagina" target="_blank">Facebook</a>
+        <a href="https://www.twitter.com/TuPagina" target="_blank">Twitter</a>
+        <a href="https://www.instagram.com/TuPagina" target="_blank">Instagram</a>
+        <p>Contacto: <a href="news.ccsports@gmail.com">news.ccsports@gmail.com</a></p>
+        <p>Teléfono: +591 79435934</p>        
+        <p>Dirección: Arrueta Integracion, Potosí [Bolivia]</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

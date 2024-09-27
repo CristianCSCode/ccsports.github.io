@@ -1,0 +1,209 @@
+.content-container {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.teams-container {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    justify-items: center;
+    margin-right: 20px;
+}
+
+.team {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 150px;
+    position: relative;
+}
+
+.team img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+.team p {
+    margin-top: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.team p:hover {
+    color: #008cba;
+}
+
+.players-container {
+    flex: 2;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+.players {
+    display: none;
+
+    padding-top: 80px; /* Ajusta este valor para compensar el encabezado fijo */
+    margin-top: -80px; /* Mismo valor que el padding-top para evitar que afecte al diseño */
+}
+
+.players-container :target {
+    display: block;
+}
+
+.players h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+/*tabla*/
+.player-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.player-table th, .player-table td {    
+    padding: 12px 15px;
+    text-align: left;
+}
+
+.player-table th {
+    background-color: #616978;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.player-table th:nth-child(2),
+.player-table th:nth-child(3),
+.player-table td:nth-child(2),
+.player-table td:nth-child(3) {
+    text-align: center;
+}
+
+.player-table td {
+    font-size: 14px;
+    color: #333;
+}
+
+.player-table tr:nth-child(even) {
+    background-color: #fbfbfb;
+}
+
+.player-table tr:hover {
+    background-color: #ddd;
+}
+
+.player-table thead {
+    position: sticky;
+    top: 60px;
+    z-index: 1;
+}
+
+@media screen and (max-width: 780px) {
+    .content-container {
+        flex-direction: column;
+        width: 100%;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .teams-container {
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+        gap: 15px;
+        margin-right: 0;
+        justify-items: center;
+    }
+
+    .team {
+        width: 100%;
+        padding: 10px;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08);
+        margin-bottom: 10px;
+    }
+
+    .team img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .players-container {
+        max-width: 100%;
+        width: 100%;
+        padding: 15px;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08);
+    }
+
+    .player-table th, .player-table td {
+        padding: 10px;
+        font-size: 13px;
+    }
+
+    .player-table th, .player-table td:nth-child(2), .player-table td:nth-child(3) {
+        text-align: center;
+    }
+
+    .player-table thead {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }    
+}
+
+@media screen and (max-width: 480px) {
+    .content-container {
+        flex-direction: column;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .teams-container {
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        gap: 10px;
+        margin-right: 0;
+        justify-items: center;
+    }
+
+    .team {
+        width: 100%;
+        padding: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+        margin-bottom: 10px;
+    }
+
+    .team img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .players-container {
+        max-width: 100%;
+        width: 100%;
+        padding: 10px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    }
+
+    .player-table th, .player-table td {
+        padding: 8px;
+        font-size: 12px;
+    }
+
+    .player-table th, .player-table td:nth-child(2), .player-table td:nth-child(3) {
+        text-align: center;
+    }
+}

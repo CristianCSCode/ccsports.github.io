@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premier League noticias</title>
+    <meta name="description" content="Mantente informado con las últimas noticias de la Premier League 2024/25. Descubre las noticias más recientes sobre partidos, fichajes, resultados y estadísticas de la liga inglesa de fútbol. ¡No te pierdas ninguna actualización importante!">
+    <link rel="icon" href="EscudosNBA/CCS.png" type="image/png">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <header>
+        <div class="encabezado">
+            <span class="hamburger" id="hamburger">&#9776;</span>
+            <h1>CC<span class="TextoSecundario">Sport</span></h1>
+        </div>        
+    </header>
+
+    <nav id="menu" class="menu">
+        <ul>
+            <li><a href="#">Nba</a>
+                <ul class="submenu">
+                    <li><a href="index.html">Titulares</a>
+                    <li><a href="NBA-Equipos.html">Equipos</a></li>
+                    <li><a href="NBA-Calendario.html">Calendario</a></li>
+                    <li><a href="NBA-Resultados.html">Resultado</a></li>
+                    <li><a href="NBA-Estadisticas.html">Estadisticas</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Champions League</a>
+                <ul class="submenu">
+                    <li><a href="champions-league-titulares.html">Titulares</a>
+                    <li><a href="champions-league-equipos.html">Equipos</a></li>
+                    <li><a href="champions-league-calendario.html">Calendario</a></li>                    
+                </ul>
+            </li>
+            <li><a href="#">LaLiga</a>
+                <ul class="submenu">
+                    <li><a href="LaLiga-titulares.html">Titulares</a>
+                    <li><a href="LaLiga-calendario.html">Calendario</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Premier League</a>
+                <ul class="submenu">
+                    <li><a href="PremierLeague-titulares.html">Titulares</a>
+                    <li><a href="PremierLeague-calendario.html">Calendario</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Bundesliga</a>
+                <ul class="submenu">
+                    <li><a href="Bundesliga-titulares.html">Titulares</a>
+                    <li><a href="Bundesliga-calendario.html">Calendario</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Serie A</a>
+                <ul class="submenu">
+                    <li><a href="SerieA-titulares.html">Titulares</a>
+                    <li><a href="serieA-calendario.html">Calendario</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="contenedor-principal">
+            <aside class="sidebar-izquierda">
+                <h3>&#10159; Premier League</h3>                
+                <article class="destacado">
+                    <table id="tabla-posiciones-izquierda">
+                        <thead>
+                            <tr>
+                                <th>Pos</th>
+                                <th>Equipo</th>
+                                <th>PJ</th>
+                                <th>PG</th>
+                                <th>PE</th>
+                                <th>PP</th>
+                                <th>PTS</th>
+                                <th>DG</th> <!-- Nueva columna para la diferencia de gol -->
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td></td>
+                                <td>Man City</td>
+                                <td>5</td>
+                                <td>4</td>
+                                <td>1</td>
+                                <td>0</td>
+                                <td></td>
+                                <td>8</td><!-- diferencia de gol -->
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Liverpool</td>
+                                <td>5</td>
+                                <td>4</td>
+                                <td>0</td>
+                                <td>1</td>
+                                <td></td>
+                                <td>9</td><!-- diferencia de gol -->
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Brighton</td>
+                                <td>5</td>
+                                <td>2</td>
+                                <td>3</td>
+                                <td>0</td>
+                                <td></td>
+                                <td>4</td><!-- diferencia de gol -->
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Arsenal</td>
+                                <td>5</td>
+                                <td>3</td>
+                                <td>2</td>
+                                <td>0</td>
+                                <td></td>
+                                <td>5</td><!-- diferencia de gol -->
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Newcastle</td>
+                                <td>5</td>
+                                <td>3</td>
+                                <td>1</td>
+                                <td>1</td>
+                                <td></td>
+                                <td>1</td><!-- diferencia de gol -->
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Brentford</td>
+                                <td>5</td>
+                                <td>2</td>
+                                <td>0</td>
+                                <td>3</td>
+                                <td></td>
+                                <td>-2</td><!-- diferencia de gol -->
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Aston Villa</td>
+                                <td>5</td>
+                                <td>4</td>
+                                <td>0</td>
+                                <td>1</td>
+                                <td></td>
+                                <td>3</td><!-- diferencia de gol -->
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Bournemouth</td>
+                                <td>5</td>
+                                <td>1</td>
+                                <td>2</td>
+                                <td>2</td>
+                                <td></td>
+                                <td>-3</td><!-- diferencia de gol -->
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Nottingham Forest</td>
+                                <td>5</td>
+                                <td>2</td>
+                                <td>3</td>
+                                <td>0</td>
+                                <td></td>
+                                <td>2</td><!-- diferencia de gol -->
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Tottenham</td>
+                                <td>5</td>
+                                <td>2</td>
+                                <td>1</td>
+                                <td>2</td>
+                                <td></td>
+                                <td>4</td><!-- diferencia de gol -->
+                            </tr>
+                        </tbody>
+                    </table>                    
+                </article>
+            </aside>
+
+            <section class="titulares">                
+                <article class="titular" id="JuicioDelManchesterCity">
+                    <h2>Manchester City enfrenta 115 cargos por violaciones financieras: posibles sanciones podrían cambiar el panorama del fútbol inglés</h2>
+                    <p class="time-reference"> 13/09/2024</p>
+                    <img src="img/City.jpg" alt="El City enfrenta 115 cargos">
+                    <p>El Manchester City enfrenta 115 cargos relacionados con presuntas violaciones de las reglas financieras de la Premier League. Las acusaciones, que abarcan un período de nueve temporadas, han generado una de las investigaciones más importantes en la historia del fútbol inglés.</p>
+                    <p><h3>Contexto de las Acusaciones</h3></p>
+                    <p>La Premier League ha estado investigando al Manchester City desde 2018. Esta investigación fue motivada en parte por publicaciones filtradas de "Football Leaks", que insinuaban que el club había inflado el valor de sus patrocinios para cumplir con el "Fair Play Financiero" (FFP) de la UEFA, entre otros posibles incumplimientos de reglas. Los 115 cargos incluyen la supuesta falta de transparencia en los informes financieros del club, ocultar los verdaderos costos salariales de jugadores y entrenadores, y no cooperar plenamente con la investigación.</p>
+                    <p>Entre las acusaciones más graves están las relacionadas con la ocultación de pagos a entrenadores y jugadores, lo que habría permitido al club evadir ciertos requisitos financieros establecidos por la liga.</p>
+                    <p><h3>Qué Significan los Cargos</h3></p>
+                    <p>Estos cargos cubren infracciones que habrían ocurrido desde 2009 hasta 2018, un período en el que el Manchester City ganó varios títulos, incluyendo la Premier League. La Premier League acusó al Manchester City de:</p>
+                    <p>&#45; No proporcionar información financiera precisa sobre ingresos, en particular con respecto a los patrocinios.</p>
+                    <p>&#45; No revelar adecuadamente los salarios de jugadores y entrenadores.</p>
+                    <p>&#45; Incumplir las regulaciones del Fair Play Financiero.</p>
+                    <p>&#45; No cooperar completamente con la investigación de la Premier League, que comenzó en 2018.</p>
+                    <p><h3>Posibles Sanciones</h3></p>
+                    <p>En caso de que se confirme que el Manchester City es culpable de estas infracciones, las sanciones podrían ser graves. Las posibles sanciones incluyen:</p>
+                    <p><b>1. </b>Deducto de puntos: Esto podría afectar el rendimiento del equipo en la tabla de la Premier League.</p>
+                    <p><b>2. </b>Descenso de categoría: En casos extremos, el club podría enfrentarse al descenso a divisiones inferiores.</p>
+                    <p><b>3. </b>Multas: Podría haber importantes sanciones económicas.</p>
+                    <p><b>4. </b>Anulación de títulos: Existe la posibilidad de que títulos ganados durante el período en cuestión sean anulados.</p>
+                    <p><h3>El Proceso Judicial</h3></p>
+                    <p>El caso será evaluado por una comisión independiente designada por la Premier League. Este proceso judicial no tiene un plazo fijo para su resolución, lo que significa que podría tardar varios meses, o incluso años, en concluirse. La naturaleza de este juicio es privada, lo que significa que las audiencias no serán públicas y la información se dará a conocer solo cuando haya una decisión final.</p>
+                    <p>El Manchester City ha negado las acusaciones, y en un comunicado oficial ha declarado que están sorprendidos por los cargos y confían en que se resolverá a su favor. El club también ha señalado que ha cooperado plenamente con la investigación y ha proporcionado pruebas en su defensa.</p>
+                    <p>Este caso también es especialmente relevante dado el contexto previo: en 2020, la UEFA impuso una prohibición de dos años al Manchester City para participar en competiciones europeas por presuntas violaciones del Fair Play Financiero. Sin embargo, el Tribunal de Arbitraje Deportivo (TAS) revocó esa prohibición tras una apelación del club.</p>
+                    <p></p>
+                    <p><h3>Consecuencias para el Fútbol Inglés</h3></p>
+                    <p>Este juicio es significativo porque, si las acusaciones resultan ser verdaderas, podría sentar un precedente en la Premier League y en el fútbol en general. Además, plantea cuestiones sobre cómo los clubes de élite manejan sus finanzas y si las reglas actuales son adecuadas para mantener la integridad competitiva.</p>
+                    <p>El desenlace del caso será observado muy de cerca no solo por los seguidores del Manchester City, sino también por otros clubes y entidades involucradas en el fútbol europeo. Las posibles sanciones podrían afectar el panorama futbolístico a largo plazo, tanto en términos de competitividad en la liga como en la percepción pública de los clubes con alto poder adquisitivo.</p>
+                    <p>Por ahora, la situación sigue en desarrollo y se espera que se revelen más detalles en los próximos meses a medida que avance el proceso judicial.</p>
+                </article>
+            </section>
+
+            <aside class="sidebar-derecha">
+                <h3>&#10159; Premier League</h3>               
+                <article class="destacado">
+                    <table id="tabla-posiciones-derecha">
+                        <thead>
+                            <tr>
+                                <th>Pos</th>
+                                <th>Equipo</th>
+                                <th>PJ</th>
+                                <th>PG</th>
+                                <th>PE</th>
+                                <th>PP</th>
+                                <th>PTS</th>
+                                <th>DG</th> <!-- Nueva columna para la diferencia de gol -->
+                            </tr>
+                        </thead>
+                        <tbody>                            
+                            <tr>
+                                <td></td>
+                                <td>Chelsea</td>
+                                <td>5</td>
+                                <td>3</td>
+                                <td>1</td>
+                                <td>1</td>
+                                <td></td>
+                                <td>6</td><!-- diferencia de gol -->
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Fulham</td>
+                                <td>5</td>
+                                <td>2</td>
+                                <td>2</td>
+                                <td>1</td>
+                                <td></td>
+                                <td>2</td><!-- diferencia de gol -->
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>West Ham</td>
+                                <td>5</td>
+                                <td>1</td>
+                                <td>1</td>
+                                <td>3</td>
+                                <td></td>
+                                <td>-4</td><!-- diferencia de gol -->
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Manchester United</td>
+                                <td>5</td>
+                                <td>2</td>
+                                <td>1</td>
+                                <td>2</td>
+                                <td></td>
+                                <td>0</td><!-- diferencia de gol -->
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Leicester City</td>
+                                <td>5</td>
+                                <td>0</td>
+                                <td>3</td>
+                                <td>2</td>
+                                <td></td>
+                                <td>-2</td><!-- diferencia de gol -->
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Crystal Palace</td>
+                                <td>5</td>
+                                <td>0</td>
+                                <td>3</td>
+                                <td>2</td>
+                                <td></td>
+                                <td>-3</td><!-- diferencia de gol -->
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Ipswich Town</td>
+                                <td>5</td>
+                                <td>0</td>
+                                <td>3</td>
+                                <td>2</td>
+                                <td></td>
+                                <td>-5</td><!-- diferencia de gol -->
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Wolves</td>
+                                <td>5</td>
+                                <td>0</td>
+                                <td>1</td>
+                                <td>4</td>
+                                <td></td>
+                                <td>-9</td><!-- diferencia de gol -->
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Southampton</td>
+                                <td>5</td>
+                                <td>0</td>
+                                <td>1</td>
+                                <td>4</td>
+                                <td></td>
+                                <td>-7</td><!-- diferencia de gol -->
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Everton</td>
+                                <td>5</td>
+                                <td>0</td>
+                                <td>1</td>
+                                <td>4</td>
+                                <td></td>
+                                <td>-9</td><!-- diferencia de gol -->
+                            </tr>
+                        </tbody>
+                    </table>                     
+                </article>
+            </aside>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 CCSports. Todos los derechos reservados.</p>
+        <nav>
+            <ul>
+                <li><a href="#about">Sobre Nosotros</a></li>
+                <li><a href="#privacy">Política de Privacidad</a></li>
+                <li><a href="#terms">Términos y Condiciones</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+        <p>Síguenos en:</p>
+        <a href="https://www.facebook.com/TuPagina" target="_blank">Facebook</a>
+        <a href="https://www.twitter.com/TuPagina" target="_blank">Twitter</a>
+        <a href="https://www.instagram.com/TuPagina" target="_blank">Instagram</a>
+        <p>Contacto: <a href="news.ccsports@gmail.com">news.ccsports@gmail.com</a></p>
+        <p>Teléfono: +591 79435934</p>        
+        <p>Dirección: Arrueta Integracion, Potosí [Bolivia]</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

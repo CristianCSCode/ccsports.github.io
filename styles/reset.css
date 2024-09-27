@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: "roboto", sans-serif;
+    background-color: rgb(237, 238, 240);
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 2rem; /* 32px */
+} 
+
+h2 {
+    font-size: 1.5rem; /* 24px */
+}
+
+h3 {
+    font-size: 1.17rem; /* 18.72px */
+}
+
+h4 {
+    font-size: 1rem; /* 16px */
+}
+
+h5 {
+    font-size: 0.83rem; /* 13.28px */
+}
+
+h6 {
+    font-size: 0.67rem; /* 10.72px */
+} 
+
+/* Párrafos */
+p {
+    font-size: 1rem; /* 16px */
+}

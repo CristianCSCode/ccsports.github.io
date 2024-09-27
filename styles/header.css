@@ -1,0 +1,43 @@
+.encabezado {
+    background: linear-gradient(rgb(221, 0, 0)0%, rgb(180, 0, 0)100%);
+    color: white;
+    padding: 10px;
+    display: block;/*Primer cabio*/
+    text-align: center;
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+}
+
+.encabezado h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    letter-spacing: 0.1em;
+}
+
+.TextoSecundario {
+    color: rgb(221, 222, 221);
+}
+
+.hamburger {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* Menu responsive */
+@media (max-width: 1000px) {
+    
+    .encabezado {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;        
+    }
+    .encabezado h1 {
+        letter-spacing: 0.3em;
+    }
+    
+    .hamburger {
+        display: block;
+    }
+}

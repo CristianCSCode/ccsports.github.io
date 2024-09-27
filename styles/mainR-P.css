@@ -1,0 +1,56 @@
+.contenedorpr2{
+    padding: 0;
+    margin: 0; 
+    width: 100%;   
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+.header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+.section {
+    margin: 20px 0;
+}
+.section h2 {
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    margin: 0;
+}
+.match, .teams {
+    background: #fff;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+}
+.teams p {
+    margin: 5px 0;
+}
+
+/* Media Query for devices with a max-width of 480px */
+@media (max-width: 480px) {
+    .container {
+        width: 95%;
+    }
+    .header h1{
+        font-size: 1.6em;
+        padding: 15px 10px;
+    }
+    .section h2 {
+        font-size: 1.2em;
+        padding: 15px 10px;
+    }
+    .match, .teams {
+        padding: 8px;
+        margin: 8px 0;
+    }
+    .teams p, .match p {
+        font-size: 0.9em;
+    }
+}
